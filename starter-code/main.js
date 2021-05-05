@@ -8,6 +8,11 @@
 
 */
 
+let name = "Erik"
+let age = "29"
+let address = "1895 The Alameda"
+let greeting = "Hello, my name is " + name + ". I'm " + age + " years old and live in " + address + "."
+console.log(greeting)
 
 /*
 	Part 2: Create another variable called greeting2. This time, use the
@@ -20,6 +25,8 @@
 
 */
 
+let greeting2 = `Hello, my name is ${name}. I'm ${age} years old and live in ${address}.`
+console.log(greeting2)
 
 /* 
 	Part 3: "Code Testing." Let's check and see if we did everything correctly and that `greeting` returns the same value as `greeting2`.
@@ -27,6 +34,8 @@
 	If the return is false, correct your bugs above until `greeting` and `greeting2` are equivalent. 
 */
 
+problemSolved = greeting===greeting2
+console.log(problemSolved)
 
 /*
 	Part 4: (No coding is needed for this part).
@@ -42,3 +51,14 @@
 	Bonus: What would the pseudocode look like if you also had to find the smallest number?
 */
 
+/*
+	given array of numbers arr
+	
+	let max = arr[0]
+	for(let i = 1; i < arr.length; i++) {
+		if(arr[1] > max) {
+			max = arr[i]
+		}
+	}
+	return max
+*/
